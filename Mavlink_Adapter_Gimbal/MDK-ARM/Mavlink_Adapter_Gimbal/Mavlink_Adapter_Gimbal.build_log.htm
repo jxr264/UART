@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jxr jxr, jxr, LIC=NQQEV-PD5CQ-AQW0M-XSY2G-CWLZJ-E9267
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.13.0.0
+Toolchain Path:  D:\Keil4\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\四旋翼\STM32F103C8T6 3路串口收发简易框架\STM32F103C8T6 3路串口收发简易框架\Mavlink_Adapter_Gimbal\MDK-ARM\Mavlink_Adapter_Gimbal.uvprojx
+Project File Date:  11/22/2018
+
+<h2>Output:</h2>
+Build target 'Mavlink_Adapter_Gimbal'
+compiling UserTask.c...
+..\Src\UserTask.c(431): warning:  #177-D: variable "old_page" was declared but never referenced
+        unsigned char old_page = 0; 
+..\Src\UserTask.c(432): warning:  #177-D: variable "count" was declared but never referenced
+    unsigned char count = 0;
+..\Src\UserTask.c(433): warning:  #177-D: variable "buff" was declared but never referenced
+        char buff[10];  
+..\Src\UserTask.c(448): warning:  #177-D: variable "t" was declared but never referenced
+  {  static unsigned int t = 0; 
+..\Src\UserTask.c(198): warning:  #177-D: function "usart3_receive_task" was declared but never referenced
+  static void usart3_receive_task(void const* arg)
+..\Src\UserTask.c(239): warning:  #177-D: function "usart3_send_task" was declared but never referenced
+  static void usart3_send_task(void const* arg)
+..\Src\UserTask.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=15244 RO-data=3804 RW-data=148 ZI-data=19332  
+"Mavlink_Adapter_Gimbal\Mavlink_Adapter_Gimbal.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\四旋翼\STM32F103C8T6 3路串口收发简易框架\STM32F103C8T6 3路串口收发简易框架\Mavlink_Adapter_Gimbal\MDK-ARM\RTE
+  D:\Keil4\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\Keil4\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
